@@ -1,6 +1,6 @@
 import logo from '../../assets/Logo.svg'
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <nav className='w-full bg-transparent z-50 flex py-6 bg-[#0B101B] justify-between items-center navbar'>
         <p className='ml-10 text-[40px] text-transparent bg-gradient-to-r from-bright-pink to-bright-blue bg-clip-text font-bold justify-center z-50 center'>Shorty-URL</p>
@@ -19,3 +19,5 @@ export const Navbar = () => {
     </nav>
   )
 }
+
+export default Navbar;
