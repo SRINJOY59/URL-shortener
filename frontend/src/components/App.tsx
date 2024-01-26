@@ -8,12 +8,12 @@ import swirl from "../assets/Swirl.svg";
 
 function App() {
   return (
-    <div className="absolute h-full w-full bg-elite-black -z-40">
-      <img src={swirl} className="-z-50 absolute top-0 left-0 h-full w-full" />
+    <body className="absolute h-full w-full bg-elite-black">
+      <img src={swirl} className="z-10 absolute top-0 left-0 h-full w-full" />
       <Navbar />
       <Home />
       <Pricing />
-    </div>
+    </body>
   );
 }
 

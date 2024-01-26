@@ -32,9 +32,10 @@ export const PriceCard = ({name, description, price, features, color, btnText='S
                 </li>
             ))}
         </ul>
-        <button className="mt-auto rounded-xl bg-black py-3 px-6 text-lg font-medium text-lite-gray">
+        
+        <button className="mt-auto rounded-full bg-elite-black py-3 px-6 text-lg font-medium text-lite-gray">
             {btnText}
-            </button>
+        </button>
     </div>
   )
 }

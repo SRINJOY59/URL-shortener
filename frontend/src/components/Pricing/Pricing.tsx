@@ -10,24 +10,26 @@ export const Pricing = () => {
         </div>
         <div className="flex flex-col gap-8 p-10 xl:flex-row z-50">
             <PriceCard
-                color="bg-bright-blue"
+                color="bg-lite-gray"
                 name = "Basic"
                 description="Get started with the basic plan"
-                features={["1 User", "Upto 20 Free Links", "Track analytics of your shortened links"]}
+                features={["1 User", "Upto 20 Free Links", "Analytics"]}
                 btnText="Start Free Plan"
             />
             <PriceCard
-                color="bg-gradient-to-r from-bright-blue to-bright-pink"
+                color="bg-lite-gray"
                 name = "Pro"
-                description="Get started with the basic plan"
-                features={["Collaborate with upto 5 users", "Enjoy upto 200 free links", "Custom Short Links"]}
+                price= "5"
+                description="Get started with an advanced plan"
+                features={["Upto 5 users", "Enjoy upto 200 Short URLs", "Custom Short Links", "Everything in the Basic Plan"]}
                 btnText="Start Pro Plan"
             />
             <PriceCard
-                color="bg-bright-pink"
+                color="bg-lite-gray"
                 name = "Enterprise"
-                description="Get started with the basic plan"
-                features={["1 User", "2 Projects", "20 Free Links"]}
+                price="20"
+                description="For big businesses"
+                features={["Unlimited Users", "Unlimited Short URLs", "Custom Short Links", "Everything in the Pro plan"]}
                 btnText="Start Enterprise Plan"
             />
         </div>
