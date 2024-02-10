@@ -1,0 +1,40 @@
+.app .container .auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.app .container h1 {
+    font-size: 20px;
+    color: teal;
+    margin-bottom: 20px;
+}
+
+.app .container form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 200px;
+    gap: 20px;
+    background-color: white;
+}
+
+.app .container input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.app .container button {
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+}
+.app.container{
+    width: 100%;
+}
